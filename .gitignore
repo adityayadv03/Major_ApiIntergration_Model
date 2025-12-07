@@ -1,0 +1,47 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+myenv/
+venv/
+.env/
+.env.bak/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model generated files (optional)
+*.ckpt
+*.hdf5
+*.keras
+
+# If you want to keep ONLY your main model file
+# Uncomment this:
+#!model.h5
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+
+# Uploaded files
+uploads/
