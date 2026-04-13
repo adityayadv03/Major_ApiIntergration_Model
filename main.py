@@ -10,6 +10,7 @@ app = FastAPI()
 origins = [
     "http://127.0.0.1:5500",   # your static HTML origin
     "http://localhost:5173",   # optional, if you also use Vite later
+    "http://localhost:3000"
 ]
 
 app.add_middleware(
